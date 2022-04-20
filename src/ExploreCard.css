@@ -1,0 +1,155 @@
+.explore-card {
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.explore-card-cover {
+    height: 248px;
+    width: 328px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.explore-card-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.delivery-time {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.8;
+    background-color: var(--primary-bg);
+    backdrop-filter: blur(4px);
+    padding: 2px 5px 3px;
+    border-radius: 4px;
+}
+
+.pro-off {
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+    color: var(--primary-bg);
+    background-color: var(--tag-blue);
+    font-size: 14px;
+    font-weight: 500px;
+    border-radius: 0px 2px 2px 0px;
+    padding: 0px 6px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 18px;
+}
+
+.discount {
+    position: absolute;
+    left: 0px;
+    bottom: 14px;
+    color: var(--primary-bg);
+    background-color: var(--tag-red);
+    font-size: 14px;
+    font-weight: 500px;
+    border-radius: 0px 2px 2px 0px;
+    padding: 0px 6px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 18px;
+}
+
+.gold-off {
+    position: absolute;
+    left: 0px;
+    bottom: 14px;
+    color: var(--primary-bg);
+    background-color: var(--tag-blue);
+    font-size: 14px;
+    font-weight: 500px;
+    border-radius: 0px 2px 2px 0px;
+    padding: 0px 6px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 18px;
+}
+
+.res-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px 6px;
+}
+
+.res-name {
+    font-size: 18px;
+    color: var( --delivery-text);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 600;
+    max-width: 200px;
+}
+
+.res-rating {
+    padding: 0px 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary-bg);
+    background-color: var(--tag-green);
+    height: 24px;
+    border-radius: 6px;
+}
+
+.res-rating i {
+    font-size: 11px;
+    margin-left: 2px;
+}
+
+.res-cuisine {
+    max-width: 56%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.res-cuisine-item {
+    margin-right: 4px;
+    color: var(--inactive-text);
+}
+
+.approx-price {
+    font-size: 14px;
+    color: var(--inactive-text);
+}
+
+.explore-bottom {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.explore-bottom-text {
+    font-size: 12px;
+    color: var(--inactive-text);
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 8px;
+}
+
+.card-separator {
+    height: 1px;
+    margin: 10px 0px 5px;
+    background-color: var(--border-white);
+}
+
+.explore-card:hover {
+    background-color: var(--primary-bg);
+    border: 1px solid var(--border-white);
+}

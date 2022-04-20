@@ -1,0 +1,153 @@
+.home {
+    width: 100%;
+    object-fit: cover;
+    background: linear-gradient( rgba(0, 0, 0, 0.13) 22.25%, rgba(0, 0, 0, 0.5) 55.5%) center center / cover no-repeat, url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+}
+
+.home-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-zomato-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-logo-zomato {
+    width: 100%;
+    padding: 20px;
+    width: 18rem;
+    margin: 0;
+}
+
+.zomato-heading {
+    width: 100%;
+    font-size: 36px;
+    padding: 3px;
+    color: white;
+    text-align: center;
+}
+
+.header-right-home {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.location-search-bar-container-home {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: var(--primary-box-shadow);
+    width: 80%;
+    background-color: var(--primary-bg);
+    border: 1px solid var(--border-white);
+}
+
+.location-wrapper-home {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.location-icon-name-home {
+    display: flex;
+    color: var(--gray);
+    padding: 5px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.location-icon-home {
+    color: var(--zomato-red);
+    margin-right: 8px;
+    font-size: 20x;
+    padding: 5px;
+}
+
+.location-search-separator-home {
+    height: 20px;
+    border: 0.5px solid var(--gray);
+}
+
+.header-search-bar-home {
+    display: flex;
+    flex: 2;
+    width: 100%;
+    margin: 0;
+}
+
+.search-icon {
+    font-size: 20px;
+    color: var(--gray);
+    margin: 0px 12px;
+}
+
+.search-input-home {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 90%;
+    margin: 0;
+}
+
+.nav-bar-home {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 10rem;
+}
+
+.login-signup-nav {
+    display: flex;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.login-link,
+.signup-link,
+.add-restaurants {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.gettheapp {
+    padding: 20px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.get-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fi-sr-arrow-small-down {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}

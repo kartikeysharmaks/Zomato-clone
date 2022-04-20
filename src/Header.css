@@ -1,0 +1,121 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.header-logo {
+    height: 60px;
+    max-width: 150px;
+    margin-right: 24px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.header-right-app {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+.location-search-bar-container-app {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: var(--primary-box-shadow);
+    width: 70%;
+    background-color: var(--primary-bg);
+    border: 1px solid var(--border-white);
+}
+
+.location-wrapper-app {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.location-icon-name-app {
+    display: flex;
+    color: var(--gray);
+    padding: 5px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.location-icon-app {
+    color: var(--zomato-red);
+    margin-right: 8px;
+    font-size: 20x;
+    padding: 5px;
+}
+
+.location-search-separator-app {
+    height: 20px;
+    border: 0.5px solid var(--gray);
+}
+
+.header-search-bar-app {
+    display: flex;
+    flex: 2;
+}
+
+.search-icon-app {
+    font-size: 20px;
+    color: var(--gray);
+    margin: 0px 12px;
+}
+
+.search-input-app {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 0;
+}
+
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.profile-image {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-top: 0;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.profile-name-header {
+    font-size: 17px;
+    padding: 12px;
+    color: black;
+    margin-right: 5px;
+}
+
+.profile-option-icon {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.logout-icon {
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+#root {
+    --primary-box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    --primary-bg: rgb(255, 255, 255);
+    --border-white: rgba(232, 232, 232);
+    --zomato-red: #ff7e8b;
+    --gray: #828282;
+    --inactive-text: #696969;
+    --inactive-color: #f8f8f8;
+    --filter-text: #9c9c9c;
+    --delivery-text: #1c1c1c;
+    --collection-shadow: rgb(0 0 0 / 8%) 0px 3px 12px;
+    --tag-red: #d92662;
+    --tag-blue: #256fef;
+    --tag-green: #24963f;
+    --subtitle-text: #363636;
+    --bg-gradient: linear-gradient( 0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+}

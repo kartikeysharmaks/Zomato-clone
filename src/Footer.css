@@ -1,0 +1,197 @@
+.footer {
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+}
+
+.zomato-logo {
+    background-color: rgb(248, 248, 248);
+    height: 2rem;
+    width: 10rem;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 4.8rem 0px 2.2rem;
+    position: relative;
+    padding: 48px 0px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.country {
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+    position: relative;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.flag {
+    width: 4.5rem;
+    height: 3.0015rem;
+    display: inline-block;
+    background: -141px 0px no-repeat;
+    transform: scale(0.488889);
+    margin-left: -1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag-img {
+    width: 100%;
+    height: 100%;
+}
+
+.india {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(28, 28, 28);
+    margin: 0px 0.5rem 0px 0px;
+    font-weight: 400;
+}
+
+.world {
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+    position: relative;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.web {
+    width: 4rem;
+    height: 3.0025rem;
+    display: inline-block;
+    background: -141px 0px no-repeat;
+    transform: scale(0.488889);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web-img {
+    width: 100%;
+    height: 100%;
+}
+
+.language {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(28, 28, 28);
+    margin: 0px 0.5rem 0px 0px;
+    font-weight: 400;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.content-heading {
+    font-size: 1rem;
+    letter-spacing: 0.12rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 0px 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.content-matter {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(105, 105, 105);
+    margin: 0.5rem 0px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    letter-spacing: 0.12rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 0px 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.instagram,
+.linked-in,
+.twitter,
+.facebook,
+.youtube {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+    margin-right: 0.4rem;
+}
+
+.appleStore,
+.playStore {
+    width: 9rem;
+    height: 100%;
+}
+
+.footer-details {
+    font-size: 1rem;
+    color: rgb(79, 79, 79);
+    line-height: 1.7rem;
+    margin-top: 2.4rem;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-width: 0.4px;
+    border-top-style: solid;
+    border-top-color: rgb(79, 79, 79);
+}
+
+.social-icons {
+    display: flex;
+    margin-bottom: 2.5rem;
+}

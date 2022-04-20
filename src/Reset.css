@@ -1,0 +1,117 @@
+.reset-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    color: #696969;
+    background-color: #fcfcfc;
+    height: 40px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: 400;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.mail-image,
+.google-image {
+    width: 1.5rem;
+    object-fit: contain;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
+.already-zomato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #4f4f4f;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 14px;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 6px;
+}
+
+.property {
+    font-size: 20px;
+    padding: 2px 2px 2px 2px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: #4f4f4f;
+}
+
+.reset-logo-zomato {
+    width: 150px;
+    margin-top: 30px;
+}
+
+.reset-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 8px;
+    margin-bottom: 14px;
+    color: #4f4f4f;
+}
+
+.reset {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+
+.reset-container {
+    margin-top: 40px;
+    border: 1px solid black;
+    width: 25%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: #4f4f4f;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 8px;
+}
+
+.login-button-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #EF4F5F;
+    color: white;
+    background-color: #EF4F5F;
+    height: 40px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-top: 0;
+    cursor: pointer;
+}
