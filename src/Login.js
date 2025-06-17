@@ -1,28 +1,29 @@
-import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { auth, logInWithEmailAndPassword, signInWithGoogle } from "./firebase";
-import { useAuthState } from "react-firebase-hooks/auth";
+// import React, { useEffect, useState } from "react";
+// import { useNavigate } from "react-router-dom";
+// import { auth, logInWithEmailAndPassword, signInWithGoogle } from "./firebase";
+// import { useAuthState } from "react-firebase-hooks/auth";
 import "./Login.css";
 
 export default function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [user, loading, error] = useAuthState(auth);
-  const navigate = useNavigate();
-  const handleClick = (async) => {
-    navigate("/register");
-  };
-  const handleSubmit = (async) => {
-    navigate("/reset");
-  };
-  useEffect(() => {
-    if (loading) {
-      return;
-    }
-    if (user) {
-      navigate("/home");
-    }
-  }, [user, loading, navigate]);
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
+  // const [user, loading, error] = useAuthState(auth);
+  // const navigate = useNavigate();
+  // const handleClick = (async) => {
+  //   navigate("/register");
+  // };
+  // const handleSubmit = (async) => {
+  //   navigate("/reset");
+  // };
+
+  // useEffect(() => {
+  //   if (loading) {
+  //     return;
+  //   }
+  //   if (user) {
+  //     navigate("/home");
+  //   }
+  // }, [user, loading, navigate]);
 
   return (
     <div className="login">
@@ -33,21 +34,21 @@ export default function Login() {
       />
       <div className="login-container">
         <div className="login-title"> Login </div>{" "}
-        {error && <div> {error.message} </div>}{" "}
+        {/* {error && <div> {error.message} </div>}{" "} */}
         <div className="property"> Email </div>{" "}
         <input
           type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          // value={email}
+          // onChange={(e) => setEmail(e.target.value)}
         />{" "}
         <div className="property"> Password </div>{" "}
         <input
           type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
+          // value={password}
+          // onChange={(e) => setPassword(e.target.value)}
         />{" "}
         <div className="forgot-password-zomato">
-          <p onClick={handleSubmit} className="forgot">
+          <p className="forgot">
             {" "}
             forgot Password ?{" "}
           </p>{" "}
@@ -55,7 +56,7 @@ export default function Login() {
         <button
           className="login-button"
           type="submit"
-          onClick={() => logInWithEmailAndPassword(email, password)}
+          // onClick={() => logInWithEmailAndPassword(email, password)}
         >
           {" "}
           <img
@@ -68,7 +69,7 @@ export default function Login() {
         <button
           className="google-button"
           type="submit"
-          onClick={() => signInWithGoogle()}
+          // onClick={() => signInWithGoogle()}
         >
           {" "}
           <img
@@ -80,7 +81,7 @@ export default function Login() {
         </button>{" "}
         <div className="new-zomato">
           <p> New to Zomato ? </p>{" "}
-          <button className="create-button" onClick={handleClick}>
+          <button className="create-button" >
             {" "}
             Create a New Account{" "}
           </button>{" "}

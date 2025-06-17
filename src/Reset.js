@@ -1,24 +1,26 @@
-import React, { useEffect, useState } from "react";
-import { useAuthState } from "react-firebase-hooks/auth";
-import { useNavigate } from "react-router-dom";
-import { auth, sendPasswordReset } from "./firebase";
+// import React, { useEffect, useState } from "react";
+// import { useAuthState } from "react-firebase-hooks/auth";
+// import { useNavigate } from "react-router-dom";
+// import { auth, sendPasswordReset } from "./firebase";
 import "./Reset.css";
 
 export default function Reset() {
-  const [email, setEmail] = useState("");
-  const [user, loading, error] = useAuthState(auth);
-  const navigate = useNavigate();
-  const handleClick = async => {
-    navigate("/register");
-};
-  useEffect(() => {
-    if (loading){ 
-        return
-    };
-    if (user) {
-         navigate("/home");
-        }
-  }, [user, loading, navigate]);
+  // const [email, setEmail] = useState("");
+  // const [user, loading, error] = useAuthState(auth);
+  // const navigate = useNavigate();
+  // const handleClick = (async) => {
+  //   navigate("/register");
+  // };
+
+  // useEffect(() => {
+  //   if (loading){
+  //       return
+  //   };
+  //   if (user) {
+  //        navigate("/home");
+  //       }
+  // }, [user, loading, navigate]);
+
   return (
     <div className="reset">
       <img
@@ -28,25 +30,27 @@ export default function Reset() {
       />
       <div className="reset-container">
         <div className="reset-title">Reset Password</div>{" "}
-        {error && <div> {error.message} </div>}{" "}
+        {/* {error && <div> {error.message} </div>}{" "} */}
         <div className="property"> Email </div>{" "}
         <input
           type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          // value={email}
+          // onChange={(e) => setEmail(e.target.value)}
         />{" "}
         <button
           className="reset-button"
           type="submit"
-          onClick={() => sendPasswordReset(email)}
+          // onClick={() => sendPasswordReset(email)}
         >
-         Reset Password 
+          Reset Password
         </button>{" "}
         <div className="new-zomato">
-           <p>New to Zomato?</p>
-           <button className="create-button" onClick={handleClick}>Create a New Account</button>
+          <p>New to Zomato?</p>
+          <button className="create-button">
+            Create a New Account
+          </button>
         </div>
       </div>{" "}
     </div>
   );
-};
+}

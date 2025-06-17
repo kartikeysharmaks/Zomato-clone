@@ -1,30 +1,35 @@
-import { useNavigate } from "react-router-dom";
-import React from "react";
+// import { useNavigate } from "react-router-dom";
 import "./Landingpage.css";
 
 export default function Landingpage() {
-  const navigate = useNavigate();
-  const handleClick = aysnc =>{
-    navigate("/login");
-  };
-  const handleSubmit = aysnc =>{
-    navigate("/register");
-  };
+  // const navigate = useNavigate();
+  // const handleClick = aysnc =>{
+  //   navigate("/login");
+  // };
+  // const handleSubmit = aysnc =>{
+  //   navigate("/register");
+  // };
+  // const getApp = aysnc =>{
+  //   navigate("https://www.zomato.com/mobile")
+  // }
 
-  const getApp = aysnc =>{
-    navigate("https://www.zomato.com/mobile")
-  }
   return (
     <div className="home">
       <div className="nav-bar-home">
         <div className="gettheapp">
           <i className="fi fi-sr-arrow-small-down"></i>
-          <div className="get-text" onClick={getApp}>Get the App</div> 
+          <div className="get-text" >
+            Get the App
+          </div>
         </div>
         <div className="login-signup-nav">
           <div className="add-restaurants">Add Restaurants</div>
-          <div className="login-link" onClick={handleClick}>Login</div>
-          <div className="signup-link" onClick={handleSubmit}>Sign-up</div>
+          <div className="login-link">
+            Login
+          </div>
+          <div className="signup-link">
+            Sign-up
+          </div>
         </div>
       </div>
       <div className="home-image">
